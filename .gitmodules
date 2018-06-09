@@ -1,0 +1,9 @@
+[submodule "roles/ansible-role-docker-compose"]
+	path = roles/ansible-role-docker-compose
+	url = https://github.com/beardedN5rd/ansible-role-docker-compose.git
+[submodule "roles/ansible-role-docker"]
+	path = roles/ansible-role-docker
+	url = https://github.com/beardedN5rd/ansible-role-docker.git
+[submodule "init"]
+	path = scripts
+	url = https://github.com/beardedN5rd/prepare4ansible.git

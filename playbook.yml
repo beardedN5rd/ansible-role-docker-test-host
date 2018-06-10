@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+    - import_tasks: ./tasks/main.yaml
+
+  vars:
+    docker_daemon_dns: ["8.8.8.8"]
+    docker_daemon_storage_driver: aufs

@@ -1,9 +1,0 @@
----
-  - debug:
-        msg: task1
-
-  - include_role:
-      name: roles/ansible-role-docker
-
-  - include_role:
-      name: roles/ansible-role-docker-compose
